@@ -10,6 +10,7 @@ public class SecondActivity extends BaseActivity {
         setContentView(R.layout.activity_second);
 
         super.setActivityName("Second Activity");
+        super.setTageName(Constants.LIFECYCLES_SECOND_ACTIVITY);
         super.printLogInfo("CREATE");
     }
 }
